@@ -9,9 +9,9 @@ import { ButtonComponent } from "../../../components/button/button.component";
   imports: [PrimaryButtonComponent, ButtonComponent],
   template: `
     <div class="bg-white shadow-md border rounded-xl p-6 flex flex-col gap-6 relative">
-      <div class="mx-auto">
-        <img [src]="product().image" class="w-[200px] h-[100px] object-contain"/>
-        <div class="flex flex-col mt-2">
+      <div class="mx-auto items-center">
+        <img [src]="product().image" class="w-[200px] h-[100px] object-contain m-left-5"/>
+        <div class="flex flex-col mt-2 items-center">
           <span class="text-md font-bold">{{ product().title }}</span>
           <span class="text-sm">{{ '$' + product().price }}</span>
           @if (product().stock === 0) {
