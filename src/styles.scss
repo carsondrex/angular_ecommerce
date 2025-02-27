@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.main-background {
+    background-color: #2D336B;
+}
+
+.header-background {
+    background-color: #141730;
+}
+
+.header-text {
+    color: white;
+}
+
+.blue-white-gradient {
+    border-color: "#7886C7";
+    border-color: linear-gradient(90.13deg, #7886C7 1.9%, #FFF2F2 97.5%);
+    border-color: -webkit-linear-gradient(-90.13deg, #7886C7 1.9%, #FFF2F2 97.5%);
+}
